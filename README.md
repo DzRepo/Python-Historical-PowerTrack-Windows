@@ -2,9 +2,11 @@
 See:  the Support web site section on [Historical PowerTrack 2.0](http://support.gnip.com/apis/historical_api2.0/)  for more information.
 ###Note: Requires [Requests](http://docs.python-requests.org/en/master/) library - to install: 
 `pip install requests`
-(note: Due to limitations under Windows, this is a single-threaded version of the HPT.py client.  Downloads of jobs will take a bit longer, as each file is downloaded one at at time, but otherwise, the client is identical.
 
-For the destination directory, remember to use a terminating slash mark (like:  C:\download\files\ )
+Notes: 
+
+- Due to limitations under Windows, this is a single-threaded version of the HPT.py client.  Downloads of jobs will take a bit longer, as each file is downloaded one at at time, but otherwise, the client is identical to the other version.
+- For the destination directory, remember to use a terminating slash mark (like:  C:\download\files\ )
 
 ##HPT.py
 Sample application to make calls into API and command line interface
