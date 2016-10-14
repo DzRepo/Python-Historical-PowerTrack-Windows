@@ -168,8 +168,8 @@ def download_from_results(file_name, start_file=0):
             if results['urlCount'] == 0:
                 print("Nothing to do:.  " + results['urlCount'] + " files available to download.")
             else:
-                uuid = results["urlList"][0][150:160]
-                success = download_files(results['urlList'], uuid, start_file)
+                # uuid = results["urlList"][0][150:160]
+                success = download_files(results['urlList'], "Custom", start_file)
                 if success:
                     return {"results": "Successfully downloaded files"}
                 else:
